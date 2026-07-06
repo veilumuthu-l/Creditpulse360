@@ -4,7 +4,7 @@
 
 Submission for IDBI Innovate 2026 — Track 03: Financial Health Score.
 
-> ⚠️ **Prototype scope & honesty note:** This is a working, end-to-end prototype
+> **Prototype scope & honesty note:** This is a working, end-to-end prototype
 > trained on **synthetic data** (see `data/generate_data.py`) that mimics the
 > *shape* of GST, UPI, and Account Aggregator data. It demonstrates the full
 > scoring pipeline — feature engineering, ML model, and real SHAP-based
@@ -15,12 +15,12 @@ Submission for IDBI Innovate 2026 — Track 03: Financial Health Score.
 
 ## What's actually real here
 
-- ✅ A real trained XGBoost model (not a mock) predicting default risk
-- ✅ Real SHAP explainability — every reason code shown in the app is computed
+- A real trained XGBoost model (not a mock) predicting default risk
+- Real SHAP explainability — every reason code shown in the app is computed
   live from the model for that specific applicant, not hardcoded text
-- ✅ A working interactive dashboard (portfolio view + applicant explorer)
-- ⚠️ Synthetic data standing in for GST/UPI/AA feeds
-- ⚠️ Simulated default labels (no real repayment outcomes exist yet)
+- A working interactive dashboard (portfolio view + applicant explorer)
+- Synthetic data standing in for GST/UPI/AA feeds
+- Simulated default labels (no real repayment outcomes exist yet)
 
 ## Quick start (local)
 
