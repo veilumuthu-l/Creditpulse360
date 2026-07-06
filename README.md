@@ -25,7 +25,7 @@ Submission for IDBI Innovate 2026 — Track 03: Financial Health Score.
 ## Quick start (local)
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/veilumuthu-l/Creditpulse360.git
 cd creditpulse360
 pip install -r requirements.txt
 
